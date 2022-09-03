@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FrontEnd</title>
+    <link rel="stylesheet" href="Front.css">
+   
+  </head>
+ 
+  <body>
+    <div class="container">
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">LOGO</a>
+
+        <a href="#about-sec">About</a>
+        <a href="#product">Products</a>
+        <a href="#service-sec">Services</a>
+        <a href="#footer-sec">Contact</a>
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+
+      <div id="about-sec">
+        <h1>About Us Page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
+          autem fugiat
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
+          autem fugiat Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+<div id="product">
+      <h2 style="text-align: center">Our Products</h2>
+
+      <div id="row">
+        <div class="column">
+          <div class="card">
+            <img src="Images\battery1.webp" style="width:90%" />
+            <div class="about-prod">
+              <h2 style="text-align: center">About</h2>
+
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="Images\battery1.webp" style="width: 90%" />
+            <div class="about-prod">
+              <h2 style="text-align: center">About</h2>
+
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="Images\battery1.webp" style="width: 90%" />
+            <div class="about-prod">
+              <h2 style="text-align: center">About</h2>
+
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+      <h2 style="text-align: center">Videos</h2>
+
+      <div id="row">
+        <div class="column">
+          <div class="card">
+            <video style="width: 90%" controls>
+                <source src="https://www.youtube.com/watch?v=P8_CY4oEZw8" type="video/mp4">
+               
+              </video>
+            <div class="about-prod">
+              <h2 style="text-align: center">About</h2>
+
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <video style="width: 90%" controls>
+                <source src="https://www.youtube.com/watch?v=P8_CY4oEZw8" type="video/mp4">
+               
+              </video>
+            <div class="about-prod">
+              <h2 style="text-align: center">About</h2>
+
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <video style="width: 90%" controls>
+                <source src="https://www.youtube.com/watch?v=P8_CY4oEZw8" type="video/mp4">
+               
+              </video>
+            <div class="about-prod">
+              <h2 style="text-align: center">About</h2>
+
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      
+
+      <h1 style="text-align:center">Services</h1>
+
+      <div id="service-sec">
+        <div class="service">
+        <p>Lorem ipsum dolor sit amet consectetur,
+           adipisicing elit. Dolores quisquam cum fuga laboriosam id,
+           ducimus reiciendis, saepe, maiores odit vel incidunt esse quo 
+           dolor dolorem doloribus adipisci earum veniam magni?</p>
+        </div>
+        <div class="service">
+            <p>Lorem ipsum dolor sit amet consectetur,
+               adipisicing elit. Dolores quisquam cum fuga laboriosam id,
+               ducimus reiciendis, saepe, maiores odit vel incidunt esse quo 
+               dolor dolorem doloribus adipisci earum veniam magni?</p>
+            </div>
+            <div class="service">
+                <p>Lorem ipsum dolor sit amet consectetur,
+                   adipisicing elit. Dolores quisquam cum fuga laboriosam id,
+                   ducimus reiciendis, saepe, maiores odit vel incidunt esse quo 
+                   dolor dolorem doloribus adipisci earum veniam magni?</p>
+                </div>
+                <div class="service">
+                    <p>Lorem ipsum dolor sit amet consectetur,
+                       adipisicing elit. Dolores quisquam cum fuga laboriosam id,
+                       ducimus reiciendis, saepe, maiores odit vel incidunt esse quo 
+                       dolor dolorem doloribus adipisci earum veniam magni?</p>
+                    </div>
+ </div>
+      
+<div class="footer-sec " style="margin-top: 5px;">
+    <div class="footer-sec1" style="font-style: 20px">
+    <h3>Mobile No: 123456780</h3>
+    <h3>Email: XYZ.gmail.com</h3>
+    <h>WhatSapp: 1212121212 </h>
+    
+    
+    </div>
+    <div class="footer-sec1">
+        <h3>ADDRESS</h3>
+        <p>Sector 9/11,Dabra Chowk Hisan, Haryana 125005</p>
+    
+    
+    </div>
+     
+</div>
+    
+    </div>
+  </body>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className == "topnav") {
+        x.className += "responsive";
+      } else {
+        x.className == "topnav";
+      }
+    }
+  </script>
+</html>
